@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+}
+
+.basic {
+    display: flex;
+    align-content: flex-start;
+}
+
+.information {
+    
+}
