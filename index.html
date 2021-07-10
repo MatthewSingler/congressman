@@ -5,42 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Congressman Jim Cooper</title>
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
-    <article class="basic">
-        <header>
-            <section class="name">
-                <h2>Jim Cooper</h2>
-                <div class="photo"> <img src="images/Jim_Cooper,_Official_Portrait,_ca2013.jpg" alt="Photo of Congressman Jim Cooper"></div>
-            </section>
-        </header>
-    </article>
-    <main>
-        <section class="information">
-            <p class="district"> Tennesee 5th Congressional District</p>
-            <P class="affiliation"> Democratic Party</P>
-        </section>
-        
-        <section>
-            <ul class="committees">
-                <h3>Committees</h3>
-                <li>House Committe on Oversight and Reform</li>
-                <li>House Committee on Armed Services</li>
-                <li>House Committee on Budget</li>
-            </ul>
+    <!--All content lives here-->
+    <header>
+        <div class="basic_info">
+            <h2>Jim Cooper</h2>
+            <div class="photo"> 
+                <img src="images/Jim_Cooper,_Official_Portrait,_ca2013.jpg" alt="Photo of Congressman Jim Cooper">
+            </div>
+        </div>
+    </header>
+    <main class="rep_about">
+        <!--the majority of info here-->
+        <section class="affiliation">
+            <div class="district"> Tennesee 5th Congressional District</div>
+            <div class="party"> Democratic Party</div>
         </section>
 
         <section>
-            <ul class="legislation">
-                <li> <a href="https://www.govtrack.us/congress/bills/112/hr482">Amendment to the Energy Policy and Conservation Act</a></li>
-                <li> <a href="https://www.govtrack.us/congress/bills/110/hr928">Amendment to the Inspector General Act of 1978</a></li>
-                <li> <a href="https://www.govtrack.us/congress/bills/103/hjres297">1994 The Year of Gospel Music</a></li>
+            <!--committee info-->
+            <ul class="committees_group"><h3>Committees</h3>
+                <li class="committees">House Committe on Oversight and Reform</li>
+                <li class="committees">House Committee on Armed Services</li>
+                <li class="committees">House Committee on Budget</li>
             </ul>
         </section>
-
+        <section class="legislation">
+            <!--legislation-->
+                <ul><h3>Legislative Acheivements</h3>
+                    <li><a href="https://www.govtrack.us/congress/bills/112/hr482">Amendment to the Energy Policy and Conservation Act</a></li>
+                    <li><a href="https://www.govtrack.us/congress/bills/110/hr928">Amendment to the Inspector General Act of 1978</a></li>
+                    <li><a href="https://www.govtrack.us/congress/bills/103/hjres297">1994 The Year of Gospel Music</a></li>
+                </ul>
+        </section>
     </main>
-    
+    <footer>
+        <p>Visit Representative Coopers Website
+            <a href="https://cooper.house.gov/">See More</a>
+        </p>
+    </footer>
     
 </body>
 </html>
